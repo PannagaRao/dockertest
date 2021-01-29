@@ -1,6 +1,6 @@
 # use a node base image
-FROM confluentinc/cp-kafka-connect-base:5.5.3
-
+# FROM confluentinc/cp-kafka-connect-base:5.5.3
+FROM confluentinc/cp-server-connect-base:6.0.1
 # set maintainer
 # LABEL maintainer "crudsinfotechng@gmail.com"
 
