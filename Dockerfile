@@ -21,7 +21,7 @@ ARG CONNECTOR_HOME_DIR=/opt/kafka-connector
 COPY configuration ${CONNECTOR_HOME_DIR}/configuration
 COPY scripts ${CONNECTOR_HOME_DIR}/scripts
 
-ENV CONNECT_BOOTSTRAP_SERVERS="PLAINTEXT://broker:9092"
+ENV CONNECT_BOOTSTRAP_SERVERS="b-3.test123.5xhhgb.c9.kafka.us-east-1.amazonaws.com:9092"
 ENV CONNECT_GROUP_ID="compose-connect-group"
 ENV CONNECT_CONFIG_STORAGE_TOPIC="docker-connect-configs"
 ENV CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR=1
